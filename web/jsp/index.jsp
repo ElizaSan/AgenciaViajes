@@ -11,7 +11,7 @@
     </head>
     <body>
         
-        <header>
+            <header>
                 <h1>Agencia de Viajes SUPERSONICOS</h1>
                 <nav>
                     <ul>
@@ -81,7 +81,7 @@
                 <aside>
                     <h3>Información adicional</h3>
                     <p>Promociones especiales y recomendaciones para viajeros.</p>
-                    <p>Promociones especiales y recomendaciones para viajeros.</p>
+                    
                     <ul>
                       <li>Descuentos de hasta 20% en vuelos con niños.</li>
                       <li>Equipaje extra gratuito para reservas anticipadas.</li>
