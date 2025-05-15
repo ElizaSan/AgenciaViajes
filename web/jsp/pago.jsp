@@ -38,7 +38,7 @@
 
                 <input type="submit" value="Pagar" />
             </form>
-            <p><a href="${pageContext.request.contextPath}/jsp/index.jsp">Volver al menú principal</a></p>
+            <p><a href="${pageContext.request.contextPath}/index.jsp">Volver al menú principal</a></p>
         </section>
     </article>
 

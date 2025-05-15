@@ -24,7 +24,7 @@
 
     <article>
         <section>
-            <h3>borrar esto: vuelos.jsp</h3>
+            
             <table border="1" cellpadding="5" cellspacing="0">
                 <tr>
                     <th>Aerolínea</th>
@@ -73,7 +73,7 @@
     </article>
 
     <aside>
-        <p><a href="${pageContext.request.contextPath}/jsp/index.jsp">Volver al menú principal</a></p>
+        <p><a href="${pageContext.request.contextPath}/index.jsp">Volver al menú principal</a></p>
     </aside>
 
     <footer>
