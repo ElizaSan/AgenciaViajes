@@ -44,9 +44,18 @@
                             <h3>Mexivuelos</h3>
                             <img src="images/mexivuelos-logo.png" alt="Logo Mexivuelos" />
                             <p>La mejor opción nacional para tus viajes.</p>
+                            <ul>
+                                <li>Salidas: CDMX</li>
+                                <li>Destino: Guadalajara</li>
+                            </ul>
+                            <p>Mexivuelos es una aerolínea mexicana con más de 20 años de experiencia, reconocida por su compromiso con la seguridad y la calidad del servicio. Opera principalmente vuelos desde Ciudad de México hacia Guadalajara, conectando dos de las ciudades más importantes del país con atención personalizada y tarifas competitivas.<p>
                         </div>
                         <div id="internationalfly">
                             <h3>InternationalFly</h3>
+                            <ul>
+                                <li>Salidas: Barcelona</li>
+                                <li>Destino: Costa Rica</li>
+                            </ul>
                             <img src="images/internationalfly-logo.jpg" alt="Logo InternationalFly" />
                             <p>Viajes internacionales con comodidad y seguridad.</p>
                         </div>
@@ -54,6 +63,11 @@
                             <h3>Titanes del Atlántico</h3>
                             <img src="images/titanes-logo.jpg" alt="Logo Titanes del Atlántico" />
                             <p>Tu conexión con el Atlántico y más allá.</p>
+                            <ul>
+                                <li>Salidas: Islandia</li>
+                                <li>Destino: Noruega</li>
+                            </ul>
+                            <p>InternationalFly es una aerolínea global que desde su fundación ha destacado por su innovación tecnológica y servicio al cliente. Sus vuelos emblemáticos conectan Barcelona con Costa Rica, ofreciendo comodidad y eficiencia a viajeros tanto de negocios como de turismo con modernas flotas y opciones flexibles.</p>
                         </div>
                     </section>
                 </article>
@@ -61,11 +75,12 @@
                 <aside>
                     <h3>Información adicional</h3>
                     <p>Promociones especiales y recomendaciones para viajeros.</p>
+                    <p>Titanes del Atlántico se ha consolidado como una de las aerolíneas líderes en vuelos transatlánticos, combinando tradición y modernidad. Su ruta principal enlaza Islandia con Noruega, brindando una experiencia a bordo de excelencia, puntualidad y un fuerte compromiso con la sustentabilidad y responsabilidad social.</p>
                 </aside>
             </main>
 
             <footer>
-                <p>© 2025 Agencia de Viajes</p>
+                <p>© 2025 Agencia de Viajes SUPERSONICOS</p>
             </footer>
     </body>
 </html>
