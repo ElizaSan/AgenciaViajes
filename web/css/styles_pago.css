@@ -1,0 +1,86 @@
+/* styles_pago.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f8fb;
+  color: #222;
+  padding: 30px;
+  max-width: 480px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  background: white;
+}
+
+h1 {
+  color: #004080;
+  margin-bottom: 0.3em;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: #0073e6;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #004080;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 2px solid #004080;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+  border-color: #00aaff;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 140px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: #004080;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+input[type="submit"]:hover {
+  background-color: #002f5a;
+}
+
+p a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #004080;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+p a:hover {
+  color: #00aaff;
+  text-decoration: underline;
+}

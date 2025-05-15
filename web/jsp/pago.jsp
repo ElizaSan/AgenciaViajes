@@ -7,13 +7,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Pago de vuelo</title>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css" />
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles_pago.css" />
 
         <script src="js/confirmar.js" defer></script>
     </head>
     <body>
         <h1>Ya casi es tuyo!</h1>
         
-        <h2>Formulario de Pago</h2>
+        <h2>Completa el formulario de Pago</h2>
         
         <form action="PagoServlet" method="post" onsubmit="return confirmarPago();">
                 

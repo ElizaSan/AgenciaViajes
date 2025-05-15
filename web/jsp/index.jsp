@@ -29,7 +29,7 @@
                         
                         <form action="ReservaServlet" method="post">
                             <label for="fecha">Fecha del vuelo:</label>
-                            <input type="date" id="fecha" name="fecha" required />
+                            <input type="date" id="fecha" name="fecha" required/><br><br>
 
                             <label for="numPasajeros">Número de pasajeros:</label>
                             <input type="number" id="numPasajeros" name="numPasajeros" min="1" required />
@@ -42,7 +42,8 @@
                         <h2>Aerolíneas</h2>
                         <div id="mexivuelos">
                             <h3>Mexivuelos</h3>
-                            <img src="images/mexivuelos-logo.png" alt="Logo Mexivuelos" />
+                            <img src="${pageContext.request.contextPath}/images/mexivuelos-logo.png" alt="Logo Mexivuelos" />
+
                             <p>La mejor opción nacional para tus viajes.</p>
                             <ul>
                                 <li>Salidas: CDMX</li>
@@ -53,24 +54,25 @@
                         
                         <div id="internationalfly">
                             <h3>InternationalFly</h3>
-                            <img src="images/internationalfly-logo.jpg" alt="Logo InternationalFly" />
+                            <img src="${pageContext.request.contextPath}/images/internationalfly-logo.jpg" alt="Logo InternationalFly" />
                             <ul>
                                 <li>Salidas: Barcelona</li>
                                 <li>Destino: Costa Rica</li>
                             </ul>
                             
                             <p>Viajes internacionales con comodidad y seguridad.</p>
+                            <p>InternationalFly es una aerolínea global que desde su fundación ha destacado por su innovación tecnológica y servicio al cliente. Sus vuelos emblemáticos conectan Barcelona con Costa Rica, ofreciendo comodidad y eficiencia a viajeros tanto de negocios como de turismo con modernas flotas y opciones flexibles.</p>
                         </div>
                         
                         <div id="titanes">
                             <h3>Titanes del Atlántico</h3>
-                            <img src="images/titanes-logo.jpg" alt="Logo Titanes del Atlántico" />
+                            <img src="${pageContext.request.contextPath}/images/titanes-logo.jpg" alt="Logo Titanes del Atlántico" />
                             <p>Tu conexión con el Atlántico y más allá.</p>
                             <ul>
                                 <li>Salidas: Islandia</li>
                                 <li>Destino: Noruega</li>
                             </ul>
-                            <p>InternationalFly es una aerolínea global que desde su fundación ha destacado por su innovación tecnológica y servicio al cliente. Sus vuelos emblemáticos conectan Barcelona con Costa Rica, ofreciendo comodidad y eficiencia a viajeros tanto de negocios como de turismo con modernas flotas y opciones flexibles.</p>
+                            
                         <p>Titanes del Atlántico se ha consolidado como una de las aerolíneas líderes en vuelos transatlánticos, combinando tradición y modernidad. Su ruta principal enlaza Islandia con Noruega, brindando una experiencia a bordo de excelencia, puntualidad y un fuerte compromiso con la sustentabilidad y responsabilidad social.</p>
                         </div>
                     </section>
