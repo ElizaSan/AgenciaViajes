@@ -1,74 +1,207 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
 header {
-    background-color: #004080;
-    color: white;
-    padding: 1rem;
+  background-color: #004080;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
+  list-style: none;
+  display: flex;
+  gap: 25px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+  color: #b3d1ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+  color: #ffe066;
+}
+
+/* Main layout */
 main {
-    display: flex;
-    gap: 2rem;
-    padding: 1rem;
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Article */
 article {
-    flex: 3;
+  flex: 3;
+  background-color: white;
+  padding: 25px 35px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
 
+/* Aside */
 aside {
-    flex: 1;
-    background-color: #f0f0f0;
-    padding: 1rem;
+  flex: 1;
+  background-color: #e6f0ff;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  color: #003366;
+  font-style: italic;
 }
 
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+/* Form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+  margin-bottom: 30px;
+  align-items: center;
 }
 
-form label, form input {
-    display: block;
-    margin: 0.5rem 0;
+form label {
+  flex: 1 1 140px;
+  font-weight: 600;
+  color: #004080;
 }
 
-input[type="submit"] {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background-color: #004080;
-    color: white;
-    border: none;
-    cursor: pointer;
+form input[type="date"],
+form input[type="number"],
+form input[type="text"],
+form input[type="submit"] {
+  flex: 2 1 250px;
+  padding: 10px 12px;
+  border: 2px solid #004080;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
 }
 
-#detalle-aerolineas > div {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5px;
+form input[type="date"]:focus,
+form input[type="number"]:focus,
+form input[type="text"]:focus {
+  border-color: #ffe066;
+  outline: none;
+}
+
+form input[type="submit"] {
+  flex: 1 1 100px;
+  background-color: #004080;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #003060;
+}
+
+/* Secciones de aerolíneas */
+#detalle-aerolineas div {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#detalle-aerolineas h3 {
+  color: #004080;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+#detalle-aerolineas p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+#detalle-aerolineas ul {
+  list-style: disc inside;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 600;
 }
 
 #detalle-aerolineas img {
-    max-width: 150px;
-    display: block;
-    margin-bottom: 0.5rem;
+  max-width: 150px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #004080;
+  color: white;
+  font-weight: 600;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9fbff;
+}
+
+/* Enlaces */
+a {
+  color: #004080;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #ffe066;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #889;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+  }
+  form label, form input, form input[type="submit"] {
+    flex: 1 1 100%;
+  }
 }
